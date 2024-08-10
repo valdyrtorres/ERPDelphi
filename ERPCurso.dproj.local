@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/06 11:39:05.000.476,=C:\Users\valdirtorres\devcode\delphi\dephi12\Unit1.pas</Transaction>
+    <Transaction>2024/08/06 11:43:28.000.053,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\src\views\View.principal.dfm=C:\Users\valdirtorres\devcode\delphi\dephi12\Unit1.dfm</Transaction>
+    <Transaction>2024/08/06 11:43:28.000.053,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\src\views\View.principal.pas=C:\Users\valdirtorres\devcode\delphi\dephi12\Unit1.pas</Transaction>
+    <Transaction>2024/08/06 11:45:08.000.144,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\ERPCurso.dproj=C:\Users\valdirtorres\devcode\delphi\dephi12\Project1.dproj</Transaction>
+    <Transaction>2024/08/10 19:00:52.000.699,=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.pas</Transaction>
+    <Transaction>2024/08/10 19:02:14.000.197,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.dfm=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\src\services\Service.conexao.dfm</Transaction>
+    <Transaction>2024/08/10 19:02:14.000.197,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.pas=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\src\services\Service.conexao.pas</Transaction>
+    <Transaction>2024/08/10 20:12:19.000.786,=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.pas</Transaction>
+    <Transaction>2024/08/10 20:12:57.000.438,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.pas=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\src\services\ServiceCadastro.pas</Transaction>
+    <Transaction>2024/08/10 20:12:57.000.438,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.dfm=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\src\services\ServiceCadastro.dfm</Transaction>
+    <Transaction>2024/08/10 20:20:25.200,=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.pas</Transaction>
+    <Transaction>2024/08/10 20:20:59.957,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\src\services\Service.cadastro.dfm=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.dfm</Transaction>
+    <Transaction>2024/08/10 20:20:59.957,C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\src\services\Service.cadastro.pas=C:\Users\valdirtorres\devcode\delphi\dephi12\projects\ERPDelphi\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

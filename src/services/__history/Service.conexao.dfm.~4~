@@ -1,0 +1,18 @@
+object ServiceConexao: TServiceConexao
+  Height = 533
+  Width = 930
+  PixelsPerInch = 144
+  object FDConn: TFDConnection
+    Left = 72
+    Top = 32
+  end
+  object WaitCursor: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 328
+    Top = 152
+  end
+  object FBDriverLink: TFDPhysFBDriverLink
+    Left = 488
+    Top = 152
+  end
+end
