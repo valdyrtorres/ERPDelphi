@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons,
   Vcl.Imaging.pngimage, System.Actions, Vcl.ActnList, System.ImageList,
-  Vcl.ImgList, Provider.constants;
+  Vcl.ImgList, Provider.constants, View.clientes;
 
 type
   TViewPrincipal = class(TForm)
@@ -79,6 +79,12 @@ end;
 procedure TViewPrincipal.btnClientesClick(Sender: TObject);
 begin
   GET_LineMENU(Sender);
+  ViewClientes := TViewClientes.Create(Self);
+  try
+    ViewClientes.ShowModal;
+  finally
+    FreeAndNil(ViewClientes);
+  end;
 end;
 
 procedure TViewPrincipal.btnConfiguracoesClick(Sender: TObject);
