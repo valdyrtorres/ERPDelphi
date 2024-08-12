@@ -327,32 +327,7 @@ inherited ViewBaseListas: TViewBaseListas
             TextHint = 'Digite aqui sua pesquisa!'
           end
         end
-        object DBG_dados: TDBGrid
-          AlignWithMargins = True
-          Left = 5
-          Top = 105
-          Width = 606
-          Height = 239
-          Margins.Left = 5
-          Margins.Top = 5
-          Margins.Right = 5
-          Margins.Bottom = 5
-          Align = alClient
-          BorderStyle = bsNone
-          DataSource = dsDados
-          Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
-          TabOrder = 1
-          TitleFont.Charset = DEFAULT_CHARSET
-          TitleFont.Color = clWindowText
-          TitleFont.Height = -12
-          TitleFont.Name = 'Segoe UI'
-          TitleFont.Style = []
-        end
       end
     end
-  end
-  object dsDados: TDataSource
-    Left = 233
-    Top = 195
   end
 end

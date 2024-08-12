@@ -339,7 +339,6 @@ inherited ViewBaseListas: TViewBaseListas
           Margins.Bottom = 5
           Align = alClient
           BorderStyle = bsNone
-          DataSource = dsDados
           Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
           TabOrder = 1
           TitleFont.Charset = DEFAULT_CHARSET
@@ -350,9 +349,5 @@ inherited ViewBaseListas: TViewBaseListas
         end
       end
     end
-  end
-  object dsDados: TDataSource
-    Left = 233
-    Top = 195
   end
 end
