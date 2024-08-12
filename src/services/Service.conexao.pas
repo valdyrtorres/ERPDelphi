@@ -8,13 +8,20 @@ uses
   FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait,
   Data.DB, FireDAC.Comp.Client, FireDAC.Phys.FBDef, FireDAC.Phys.IBBase,
   FireDAC.Phys.FB, FireDAC.Comp.UI,
-  System.IniFiles;
+  System.IniFiles, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
+  FireDAC.DApt, FireDAC.Comp.DataSet, Provider.constants;
 
 type
   TServiceConexao = class(TDataModule)
     FDConn: TFDConnection;
     WaitCursor: TFDGUIxWaitCursor;
     FBDriverLink: TFDPhysFBDriverLink;
+    QRY_filial: TFDQuery;
+    QRY_filialFIL_CODIGO: TIntegerField;
+    QRY_filialFIL_RAZAO: TStringField;
+    QRY_filialFIL_FANTASIA: TStringField;
+    QRY_filialFIL_CNPJ: TStringField;
+    QRY_filialFIL_TELEFONE: TStringField;
     procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
@@ -63,6 +70,14 @@ begin
   finally
     FreeAndNil(LIniFile);
   end;
+
+  // carrego minha filial
+  QRY_filial.Close;
+  QRY_filial.Params[0].AsInteger := 2;
+  QRY_filial.Open();
+
+  iCOD_FILIAL :=  QRY_filialFIL_CODIGO.AsInteger;
+  sRAZAO_FILIAL := QRY_filialFIL_RAZAO.AsString;
 end;
 
 end.

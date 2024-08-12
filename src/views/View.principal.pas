@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons,
   Vcl.Imaging.pngimage, System.Actions, Vcl.ActnList, System.ImageList,
-  Vcl.ImgList;
+  Vcl.ImgList, Provider.constants;
 
 type
   TViewPrincipal = class(TForm)
@@ -104,6 +104,7 @@ end;
 procedure TViewPrincipal.FormShow(Sender: TObject);
 begin
   GET_LineMENU(btnClientes);
+  lblLicenciado.Caption := sRAZAO_FILIAL;
 end;
 
 procedure TViewPrincipal.GET_LineMENU(Sender: TObject);

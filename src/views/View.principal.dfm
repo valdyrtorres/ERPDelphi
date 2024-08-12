@@ -3530,13 +3530,13 @@ object ViewPrincipal: TViewPrincipal
             Caption = 'EMPRESA XYZ LTDA'
             Font.Charset = ANSI_CHARSET
             Font.Color = clWhite
-            Font.Height = -16
+            Font.Height = -13
             Font.Name = 'Segoe UI Semilight'
             Font.Style = []
             ParentFont = False
-            ExplicitLeft = 159
-            ExplicitWidth = 136
-            ExplicitHeight = 21
+            ExplicitLeft = 183
+            ExplicitWidth = 112
+            ExplicitHeight = 17
           end
         end
       end
