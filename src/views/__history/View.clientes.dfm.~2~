@@ -1,4 +1,0 @@
-inherited ViewClientes: TViewClientes
-  Caption = 'ViewClientes'
-  TextHeight = 15
-end
